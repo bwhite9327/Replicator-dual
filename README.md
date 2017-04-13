@@ -1,6 +1,7 @@
 # Manifest 
 This repository is to provide the community with the appropiate settings to use a Replicator 3D machine with Slic3r.  
-It will contain all the configuration needed regaring the printer settings, and the filament settings.  
+It will contain all the configuration needed regaring the printer settings, and the filament settings.
+This settings were obtained from the Makerbot Markerware software .json file.  
 This is my personal setup for a Monoprice Dual machine working in San José, Costa Rica with the filament bought from www.CrCibernetica.com  
 
 ---
@@ -15,32 +16,32 @@ Platform size:
   * y: 145 
   * z: 150
   
-Start_position: 
+Start_position:
   * x: -112 
   * y: -73 
   * z: 0
   
-Printer size: 
+Printer size:
   * x: 449 
   * y: 291 
   * z: 150
   
-Feedrate: 
+Feedrate:
   * x: 12450 
   * y: 12450 
   * z: 1170 
   * A: 1600 
   * B: 1600
   
-Steps per mm: 
+Steps per mm:
   * x: 94.139704 
   * y: 94.139704 
   * z: 400 
   * A: -96.275 
   * B: -96.275
   
-### Material settings  
-#### PLA  
+### Material settings
+#### PLA
 Feed diameter: 1.77  
 Max fill speed: 90  
 Max flow rate: 4.0  
@@ -50,7 +51,6 @@ Retract rate: 25
 Temperature: 230  
 
 #### ABS
-
 Feed diameter: 1.77  
 Max fill speed: 90  
 Max flow rate: 4.0  
@@ -60,7 +60,6 @@ Retract rate: 25
 Temperature: 230  
 
 #### HIPS
-
 Feed diameter: 1.77  
 Max fill speed: 90  
 Max flow rate: 4.0  

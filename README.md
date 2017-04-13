@@ -41,33 +41,33 @@ Steps per mm:
   
 ### Material settings  
 #### PLA  
-Feed diameter: 1.77
-Max fill speed: 90
-Max flow rate: 4.0
-Restart rate: 25
-Retract distance: 1.3
-Retract rate: 25
-Temperature: 230
+Feed diameter: 1.77  
+Max fill speed: 90  
+Max flow rate: 4.0  
+Restart rate: 25  
+Retract distance: 1.3  
+Retract rate: 25  
+Temperature: 230  
 
 #### ABS
 
-Feed diameter: 1.77
-Max fill speed: 90
-Max flow rate: 4.0
-Restart rate: 25
-Retract distance: 1.3
-Retract rate: 25
-Temperature: 230
+Feed diameter: 1.77  
+Max fill speed: 90  
+Max flow rate: 4.0  
+Restart rate: 25  
+Retract distance: 1.3  
+Retract rate: 25  
+Temperature: 230  
 
 #### HIPS
 
-Feed diameter: 1.77
-Max fill speed: 90
-Max flow rate: 4.0
-Restart rate: 25
-Retract distance: 1.3
-Retract rate: 25
-Temperature: 250
+Feed diameter: 1.77  
+Max fill speed: 90  
+Max flow rate: 4.0  
+Restart rate: 25  
+Retract distance: 1.3  
+Retract rate: 25  
+Temperature: 250  
 
 ### G-Code 
 #### Start G-Code - Right extruder ABS 

@@ -1,52 +1,46 @@
-#Manifest 
-This repository is to provide the community with the appropiate settings to use a Replicator 3D machine with Slic3r. It will contain all the configuration needed regaring the printer settings, and the filament settings. This is my personal setup for a Monoprice Dual machine working in San José, Costa Rica with the filament bought from www.CrCibernetica.com
+# Manifest 
+This repository is to provide the community with the appropiate settings to use a Replicator 3D machine with Slic3r. 
+It will contain all the configuration needed regaring the printer settings, and the filament settings.
+This is my personal setup for a Monoprice Dual machine working in San José, Costa Rica with the filament bought from www.CrCibernetica.com
 
-##Printer settings 
+---
+
+## Printer settings 
 This section will list the general settings of the machine and also the Start G-Code and End G-Code 
-###Replicator dual Settings 
+### Replicator dual Settings 
 Nozzle diameter: 0.4 
 
 Platform size: 
-  - x: 225 
-  - y: 145 
-  - z: 150
+  * x: 225 
+  * y: 145 
+  * z: 150
 
 Start_position: 
-  - x: -112 
-  - y: -73 
-  - z: 0
+  * x: -112 
+  * y: -73 
+  * z: 0
 
 Printer size: 
-  - x: 449 
-  - y: 291 
-  - z: 150
+  * x: 449 
+  * y: 291 
+  * z: 150
 
 Feedrate: 
-  - x: 12450 
-  - y: 12450 
-  - z: 1170 
-  - A: 1600 
-  - B: 1600
+  * x: 12450 
+  * y: 12450 
+  * z: 1170 
+  * A: 1600 
+  * B: 1600
 
 Steps per mm: 
-  - x: 94.139704 
-  - y: 94.139704 
-  - z: 400 
-  - A: -96.275 
-  - B: -96.275
+  * x: 94.139704 
+  * y: 94.139704 
+  * z: 400 
+  * A: -96.275 
+  * B: -96.275
 
-###Material settings 
-####PLA
-
-Feed diameter: 1.77
-Max fill speed: 90
-Max flow rate: 4.0
-Restart rate: 25
-Retract distance: 1.3
-Retract rate: 25
-Temperature: 230
-
-####ABS
+### Material settings 
+#### PLA
 
 Feed diameter: 1.77
 Max fill speed: 90
@@ -56,7 +50,17 @@ Retract distance: 1.3
 Retract rate: 25
 Temperature: 230
 
-####HIPS
+#### ABS
+
+Feed diameter: 1.77
+Max fill speed: 90
+Max flow rate: 4.0
+Restart rate: 25
+Retract distance: 1.3
+Retract rate: 25
+Temperature: 230
+
+#### HIPS
 
 Feed diameter: 1.77
 Max fill speed: 90
@@ -66,8 +70,8 @@ Retract distance: 1.3
 Retract rate: 25
 Temperature: 250
 
-###G-Code 
-####Start G-Code - Right extruder ABS 
+### G-Code 
+#### Start G-Code - Right extruder ABS 
 (replicator_begin) 
 M136 (enable build progress) 
 M73 P0
@@ -96,7 +100,10 @@ M133 T1
 (replicator_end_start_sequence) 
 G130 X127 Y127 A127 B127 (Set Stepper motor Vref to defaults)
 
-####End G-Code - Right extruder ABS (replicator_end_position) M18 A B(Turn off A and B Steppers) G1 Z155 F900 G162 X Y F2000 M18 X Y Z(Turn off steppers after a build)
+#### End G-Code - Right extruder ABS 
+(replicator_end_position) 
+M18 A B(Turn off A and B Steppers) 
+G1 Z155 F900 G162 X Y F2000 M18 X Y Z(Turn off steppers after a build)
 
 (cool_platform) 
 M109 S0 T0

@@ -39,34 +39,6 @@ Steps per mm:
   * z: 400 
   * A: -96.275 
   * B: -96.275
-  
-### Material settings
-#### PLA
-Feed diameter: 1.77  
-Max fill speed: 90  
-Max flow rate: 4.0  
-Restart rate: 25  
-Retract distance: 1.3  
-Retract rate: 25  
-Temperature: 230  
-
-#### ABS
-Feed diameter: 1.77  
-Max fill speed: 90  
-Max flow rate: 4.0  
-Restart rate: 25  
-Retract distance: 1.3  
-Retract rate: 25  
-Temperature: 230  
-
-#### HIPS
-Feed diameter: 1.77  
-Max fill speed: 90  
-Max flow rate: 4.0  
-Restart rate: 25  
-Retract distance: 1.3  
-Retract rate: 25  
-Temperature: 250  
 
 ### G-Code 
 #### Start G-Code - Right extruder ABS 
@@ -115,3 +87,31 @@ M70 P5 (We <3 Making Things!)
 M72 P1 ( Play Ta-Da song )  
 M73 P100 (end build progress)  
 M137 (build end notification)  
+
+## Material settings
+### PLA
+Feed diameter: 1.77  
+Max fill speed: 90  
+Max flow rate: 4.0  
+Restart rate: 25  
+Retract distance: 1.3  
+Retract rate: 25  
+Temperature: 215  
+
+### ABS
+Feed diameter: 1.77  
+Max fill speed: 90  
+Max flow rate: 4.0  
+Restart rate: 25  
+Retract distance: 1.3  
+Retract rate: 25  
+Temperature: 215  
+
+### HIPS
+Feed diameter: 1.77  
+Max fill speed: 90  
+Max flow rate: 4.0  
+Restart rate: 25  
+Retract distance: 1.3  
+Retract rate: 25  
+Temperature: 250  

@@ -4,6 +4,12 @@ It will contain all the configuration needed regaring the printer settings, and 
 This settings were obtained from the Makerbot Markerware software .json file.  
 This is my personal setup for a Monoprice Dual machine working in San José, Costa Rica with the filament bought from www.CrCibernetica.com  
 
+[Printer settings](##printer-settings)
+  * [Replicator dual Settings](###replicator-dual-settings)
+  * [G-Code](###g-code)
+  * [Material Settings](##material-settings)
+
+
 ---
 
 ## Printer settings  
@@ -90,7 +96,7 @@ M137 (build end notification)
 
 ---
 
-## Material settings
+## Material Settings
 ### PLA
 Feed diameter: 1.77  
 Max fill speed: 90  

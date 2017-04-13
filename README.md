@@ -4,16 +4,17 @@ It will contain all the configuration needed regaring the printer settings, and 
 This settings were obtained from the Makerbot Markerware software .json file.  
 This is my personal setup for a Monoprice Dual machine working in San José, Costa Rica with the filament bought from www.CrCibernetica.com  
 
-[Printer settings](1)
-  * [Replicator dual Settings](1.1)
-  * [G-Code](1.2)
-  * [Material Settings](1.3)
+[Printer settings](#printer-settings)
+  * [Replicator dual Settings](#replicator-dual-settings)
+  * [G-Code](#g-code)
+  * [Material Settings](#material-settings)
+
 
 ---
 
-## Printer settings [1] 
+## Printer settings  
 This section will list the general settings of the machine and also the Start G-Code and End G-Code  
-### Replicator dual Settings [1.1]  
+### Replicator dual Settings  
 Nozzle diameter: 0.4  
 
 Platform size:
@@ -45,8 +46,8 @@ Steps per mm:
   * A: -96.275 
   * B: -96.275
 
-### G-Code [1.2]
-#### Start G-Code - Right extruder ABS [1.2.1]
+### G-Code 
+#### Start G-Code - Right extruder ABS 
 (replicator_begin)  
 M136 (enable build progress)  
 M73 P0  
@@ -75,7 +76,7 @@ M133 T1
 (replicator_end_start_sequence)  
 G130 X127 Y127 A127 B127 (Set Stepper motor Vref to defaults)  
 
-#### End G-Code - Right extruder ABS [1.2.2]
+#### End G-Code - Right extruder ABS 
 (replicator_end_position)  
 M18 A B(Turn off A and B Steppers)  
 G1 Z155 F900 G162 X Y F2000 M18 X Y Z(Turn off steppers after a build)  
@@ -95,8 +96,8 @@ M137 (build end notification)
 
 ---
 
-## Material Settings [1.3]
-### PLA [1.3.1]
+## Material Settings
+### PLA
 Feed diameter: 1.77  
 Max fill speed: 90  
 Max flow rate: 4.0  
@@ -105,7 +106,7 @@ Retract distance: 1.3
 Retract rate: 25  
 Temperature: 215  
 
-### ABS [1.3.2]
+### ABS
 Feed diameter: 1.77  
 Max fill speed: 90  
 Max flow rate: 4.0  
@@ -114,7 +115,7 @@ Retract distance: 1.3
 Retract rate: 25  
 Temperature: 215  
 
-### HIPS [1.3.3]
+### HIPS
 Feed diameter: 1.77  
 Max fill speed: 90  
 Max flow rate: 4.0  

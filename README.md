@@ -1,6 +1,6 @@
 # Manifest 
 This repository is to provide the community with the appropiate settings to use a Replicator 3D machine with Slic3r.  
-It will contain all the configuration needed regaring the printer settings, and the filament settings.
+It will contain all the configuration needed regaring the printer settings, and the filament settings.  
 This settings were obtained from the Makerbot Markerware software .json file.  
 This is my personal setup for a Monoprice Dual machine working in San José, Costa Rica with the filament bought from www.CrCibernetica.com  
 

@@ -9,10 +9,10 @@ This is my personal setup for a Monoprice Dual machine working in San José, Cos
   * [G-Code](#g-code)
     * [Start G-Code - Right extruder ABS](#start-g-code---right-extruder-abs)
     * [End G-Code - Right extruder ABS](#end-g-code---right-extruder-abs)
-  * [Material Settings](#material-settings)
-    * [PLA](#pla)
-    * [ABS](#abs)
-    * [HIPS](#hips)
+[Material Settings](#material-settings)
+  * [PLA](#pla)
+  * [ABS](#abs)
+  * [HIPS](#hips)
 
 
 ---
